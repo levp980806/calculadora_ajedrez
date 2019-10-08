@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Calculadora</h1></center>
+<form name="calcu">
+    <table border="0" cellspacing="1" cellpadding="1"  height="450" bgcolor="#3A3E41">  
+            <tr>
+                    <input type="textfield" name="ans" value="">
+                    <td><input type="button" value="Borrar" onClick="document.calcu.ans.value=' '" id="borrar"></td>
+            </tr>
+            <tr>
+                    <td><center><input type="button" value="7" onClick="document.calcu.ans.value+='7'"></center></td>
+                    <td><center><input type="button" value="8" onClick="document.calcu.ans.value+='8'"></center></td>
+                    <td><center><input type="button" value="9" onClick="document.calcu.ans.value+='9'"></center></td>
+                    <td><center><input type="button" value="X" onClick="document.calcu.ans.value+='*'"></center></td>
+            </tr>
+            <tr>
+                    <td><center><input type="button" value="4" onClick="document.calcu.ans.value+='4'"></center></td>
+                    <td><center><input type="button" value="5" onClick="document.calcu.ans.value+='5'"></center></td>
+                    <td><center><input type="button" value="6" onClick="document.calcu.ans.value+='6'"></center></td>
+                    <td><center><input type="button" value="-" onClick="document.calcu.ans.value+='-'"></center></td>  
+            </tr>
+            <tr>
+                <td><center><input type="button" value="1" onClick="document.calcu.ans.value+='1'"></center></td>
+                <td><center><input type="button" value="2" onClick="document.calcu.ans.value+='2'"></center></td>
+                <td><center><input type="button" value="3" onClick="document.calcu.ans.value+='3'"></center></td>
+                <td><center><input type="button" value="+" onClick="document.calcu.ans.value+='+'"></center></td>
+            </tr>
+            <tr>
+                    
+                <td><center><input type="button" value="^" onClick="document.calcu.ans.value+='^'"></center></td>
+                <td><center><input type="button" value="0" onClick="document.calcu.ans.value+='0'"></center></td>
+                <td><center><input type="button" value="," onClick="document.calcu.ans.value+=','"></center></td>
+                <td><center><input type="button" value="=" onClick="document.calcu.ans.value=eval(document.calcu.ans.value)"></center></td>
+            </tr>
+             </table>
+            </form>
+    
+</body>
+</html>

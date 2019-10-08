@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Calculadora </h1>
+    <label for="n1">Numero</label>
+    <input type="text" id="n1">
+
+    <button onclick="inversa()">1/X</button>
+    
+    
+
+    <script type="text/javascript">
+    function inversa(){
+        var num = document.getElementById("n1");
+        num.value = 1/num.value;
+    }
+    
+    </script>
+
+    
+    
+    <button onclick="cuadrado()">X<sup>2</sup></button>
+    <script type="text/javascript">
+    function cuadrado(){
+        var num = document.getElementById("n1");
+        num.value = num.value * num.value;
+    }
+    </script>
+    </body>
+
+</html>
