@@ -1,0 +1,28 @@
+body{
+    background:#24292E;
+    text-decoration-color:#FFF;
+    text-decoration: #FFF;
+}
+
+table{
+    margin-left:375px;
+    background: #3F4440;
+    text-decoration-color:#FFF;
+    text-decoration: #FFF;
+
+}
+
+button{
+    background: #FCB;
+    height: 85px;
+    width: 85px;
+
+}
+
+.resultado{
+    width: 100px;
+    height: 1500px;
+}
+span{
+    background: #FFF;
+}
